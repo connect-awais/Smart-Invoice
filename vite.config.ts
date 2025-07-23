@@ -13,7 +13,7 @@ export default defineConfig({
   
   // Production-specific configurations
   build: {
-    outDir: "dist", // Vercel expects this by default
+    outDir: "build", // Vercel expects this by default
     emptyOutDir: true,
     manifest: true,
     rollupOptions: {
