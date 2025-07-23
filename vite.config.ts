@@ -15,6 +15,7 @@ export default defineConfig({
   build: {
     outDir: "dist", // Vercel expects this by default
     emptyOutDir: true,
+    manifest: true,
     rollupOptions: {
       output: {
         manualChunks: {
